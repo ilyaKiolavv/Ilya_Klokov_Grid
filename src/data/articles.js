@@ -52,7 +52,25 @@ const articles = [
     date: '2 апреля 2026',
     tag: 'Git',
     image: 'https://picsum.photos/seed/git6/400/250'
-  }
+  },
+  {
+    id: 7,
+    title: 'Пропсы и компаненты',
+    excerpt:'Как передавать данные между компанентами и почему пропсы только для чтения.',
+    author:'Дмитрий Соколов',
+    date: '5 апреля 2026',
+    tag: 'основы',
+    image: 'https://picsum.photos/seed/props7/404/250',
+  },
+  {
+    id: 8,
+    title: 'Адаптивная верстка',
+    excerpt: 'Медиазапроссы, относительные единицы и mobile-first подход.',
+    author: 'Олег Грушев',
+    date: '9 апреля 2026',
+    tag: 'Верстка',
+    image: 'https://picsum.photos/seed/adaptive8/400/250',
+  },
 ];
 
 export default articles;
