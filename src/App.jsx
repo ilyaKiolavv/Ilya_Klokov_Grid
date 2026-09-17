@@ -1,8 +1,14 @@
+import styles from './App.module.css';
+import Header from './components/Header/Header';
+import ArticleList from './components/ArticleList/ArticleList';
+
 function App() {
   return (
-    <div className="app">
-      <h1>Мой React-проект</h1>
-      <p>Выполнил: Клоков Илья</p>
+    <div className={styles.app}>
+      <Header />
+      <main>
+        <ArticleList />
+      </main>
     </div>
   );
 }
